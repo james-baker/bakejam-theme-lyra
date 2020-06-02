@@ -41,7 +41,6 @@
         "url": "https://github.com/james-baker/bakejam-theme-lyra.git"
     },
     "bugs": "https://github.com/james-baker/bakejam-theme-lyra/issues",
-    "contributors": "https://github.com/james-baker/bakejam-theme-lyra/graphs/contributors",
     "devDependencies": {
         "@tryghost/release-utils": "0.6.3",
         "autoprefixer": "9.8.0",
