@@ -1,7 +1,7 @@
 {
-    "name": "lyra",
-    "description": "A premium publication theme for Ghost.",
-    "demo": "https://lyra.ghost.io",
+    "name": "bakejam-theme-lyra",
+    "description": "Customized Ghost theme for bakejam.com based on Lyra, the supported Casper+members theme.",
+    "demo": "https://www.bakejam.com",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
@@ -21,9 +21,8 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "James Baker",
+        "url": "https://www.bakejam.com"
     },
     "gpm": {
         "type": "theme",
@@ -39,10 +38,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/james-baker/bakejam-theme-lyra.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/james-baker/bakejam-theme-lyra/issues",
+    "contributors": "https://github.com/james-baker/bakejam-theme-lyra/graphs/contributors",
     "devDependencies": {
         "@tryghost/release-utils": "0.6.3",
         "autoprefixer": "9.8.0",
@@ -64,7 +63,7 @@
         "defaults"
     ],
     "config": {
-        "posts_per_page": 15,
+        "posts_per_page": 25,
         "image_sizes": {
             "xxs": {
                 "width": 30
