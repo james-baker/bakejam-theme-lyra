@@ -100,7 +100,7 @@ try {
     config = null;
 }
 
-const REPO = 'TryGhost/Casper';
+const REPO = 'james-baker/bakejam-theme-lyra';
 const USER_AGENT = 'Casper';
 const CHANGELOG_PATH = path.join(process.cwd(), '.', 'changelog.md');
 
