@@ -1,4 +1,4 @@
-name: Deploy Theme
+name: Deploy Theme from master
 on:
   push:	
     branches:	
@@ -12,3 +12,4 @@ jobs:
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
+          theme-name: "bakejam-theme-lyra-master"
