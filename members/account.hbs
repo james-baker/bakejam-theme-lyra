@@ -6,7 +6,7 @@
 <main id="site-main" class="site-main site-account outer">
     <div class="inner">
 
-    {{#if @member.paid}}
+    {{#if false}}
 
         {{!-- Logged in, paying member: SHOULD NOT HAPPEN --}}
         <div class="subscriber-box">
@@ -25,6 +25,7 @@
             </div>
             <h1 class="account-box-title">You are subscribed</h1>
             <p>Hey there! <strong>{{@member.email}}</strong> is subscribed to the {{@site.title}} newsletter updates.</p>
+            <p>You can <a href="javascript:" data-members-signout>Sign out</a> if you'd like, though there's not much reason to.</p>
         </div>
 
     {{else}}
