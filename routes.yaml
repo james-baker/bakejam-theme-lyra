@@ -2,16 +2,22 @@ routes:
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
+  /journal/:
+    controller: channel
+    filter: primary_tag:journal
+  /essay/:
+    controller: channel
+    filter: primary_tag:essay
 
 collections:
   /:
     permalink: /{slug}/
     template: index
-    filter: visibility:public
+    filter: primary_tag:-newsletter
   /newsletter/:
     permalink: /newsletter/{slug}/
     template: index
-    filter: visibility:-public
+    filter: primary_tag:newsletter
 
 taxonomies:
   tag: /tag/{slug}/
