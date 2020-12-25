@@ -14,7 +14,7 @@ into the {body} of the default.hbs template --}}
                         {{@site.title}}
                     {{/if}}
                 </h1>
-                <h2 class="site-description">{{@site.description}}</h2>
+                <h2 class="site-description">email newsletter archive</h2>
             </div>
         </div>
     </div>
@@ -22,6 +22,19 @@ into the {body} of the default.hbs template --}}
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
+    <div>
+      {{#if @member}}
+        You are signed in as 
+        <span class="account-email" title="{{@member.email}}">{{@member.email}}</span>
+        - enjoy the archive.
+      {{else}}
+        The newsletter archive is restricted to signed-in members. Please
+        <a class="signin-link" href="{{@site.url}}/signin/">sign in</a>
+        or
+        <a class="signin-link" href="{{@site.url}}/signup/">subscribe</a>
+        for access.
+      {{/if}}
+    </div>
     <div class="inner posts">
 
         <div class="post-feed">
