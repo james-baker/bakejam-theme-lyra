@@ -14,8 +14,8 @@ collections:
     permalink: /{slug}/
     template: index
     filter: primary_tag:-newsletter
-  /newsletter/:
-    permalink: /newsletter/{slug}/
+  /news/:
+    permalink: /news/{slug}/
     template: newsletter
     filter: primary_tag:newsletter
 
