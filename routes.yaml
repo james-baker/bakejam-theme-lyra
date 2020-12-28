@@ -16,7 +16,7 @@ collections:
     filter: primary_tag:-newsletter
   /news/:
     permalink: /news/{slug}/
-    template: newsletter
+    template: news
     filter: primary_tag:newsletter
 
 taxonomies:
