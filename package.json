@@ -22,7 +22,8 @@
     },
     "author": {
         "name": "James Baker",
-        "url": "https://www.bakejam.com"
+        "url": "https://www.bakejam.com",
+        "email": "hello@example.com"
     },
     "gpm": {
         "type": "theme",
